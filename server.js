@@ -12,7 +12,7 @@ const pool = new Pool({
 console.log(" ");
 console.log("***** Academy Always Music *****");
 
-// Obtener los parámetros de entrada: Cuando ejecutas el comando: node server.js registrar 12345678-9 "Juan Pernia" g70 1,
+// Obtener los parámetros de entrada mediante argumentos: Cuando ejecutas el comando: node server.js registrar 12345678-9 "Juan Pernia" g70 7,
 const funcion = process.argv[2];
 const rut = process.argv[3];
 const nombre = process.argv[4];
