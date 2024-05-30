@@ -98,7 +98,7 @@ const eliminarAlumno = async ({ rut }) => {
 
 
 // Función principal que ejecuta la acción solicitada
-const main = async () => {
+const ejecutar = async () => {
   try {
     switch (funcion) {
       case 'registrar':
@@ -127,4 +127,4 @@ const main = async () => {
   }
 };
 // Ejecutar o llamar la función principal
-main();
+ejecutar();
